@@ -1,0 +1,9 @@
+# 主题描述文件
+id: com_wooseng_halo
+name: 殇之界
+author:
+  name: 残无殇
+  website: https://wooseng.com
+description: 以喵神的博客模板为基础开发的殇之界模板
+logo: https://images.wooseng.com/halo/wooseng-300x300_1581510362818.png?x-oss-process=style/wooseng
+version: 2.0.0
