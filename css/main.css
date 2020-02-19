@@ -284,7 +284,7 @@ td:last-child {
   margin-bottom: .7em; }
 .footer__copyright a {
   color: #a6a6a6;
-  text-decoration: underline; }
+  text-decoration: none; }
 .footer__copyright a:hover {
   color: #84252b; }
 
