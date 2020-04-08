@@ -175,3 +175,11 @@ info:
       label: ICP备案号
       type: text
       placeholder: '仅中国大陆网站需要'
+    - name: net_safety
+      label: 公安联网备案号
+      type: text
+      placeholder: '中国大陆网站需要'
+    - name: net_safety_id
+      label: 公安联网备案号ID
+      type: text
+      placeholder: '中国大陆网站需要'
