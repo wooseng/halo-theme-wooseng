@@ -8,13 +8,9 @@
         </#if>
         <#if settings.net_safety?? && settings.net_safety_id??>
             <div class="footer__copyright">
-                <#--  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${settings.net_safety_id}" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${settings.net_safety_id}" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
                     <img src="${static!}/assets/images/net_safety.png" style="float:left;"/>
                     <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">${settings.net_safety}</p>
-                </a>  -->
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${settings.net_safety_id}" style="height:20px;line-height:20px;">
-                    <img src="${static!}/assets/images/net_safety.png" />
-                    <span style="padding: 0px 0px 0px 5px;height:20px;line-height:20px;">${settings.net_safety}</span>
                 </a>
             </div>
         </#if>
