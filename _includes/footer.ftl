@@ -2,8 +2,8 @@
     <footer>
         <span class="footer__copyright"><@global.footer /></span>
         <#if settings.icp??>
-            <span class="footer__copyright" target="_blank">
-                <a href='http://beian.miit.gov.cn/'>${settings.icp}</a>
+            <span class="footer__copyright">
+                <a target="_blank" href='http://beian.miit.gov.cn/'>${settings.icp}</a>
             </span>
         </#if>
         <#if settings.net_safety?? && settings.net_safety_id??>
