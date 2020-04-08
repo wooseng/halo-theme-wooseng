@@ -14,7 +14,7 @@
                 </a>  -->
                 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${settings.net_safety_id}">
                     <img src="${static!}/assets/images/net_safety.png" />
-                    <p style="margin: 0px 0px 0px 5px;">${settings.net_safety}</p>
+                    <span style="padding: 0px 0px 0px 5px;">${settings.net_safety}</span>
                 </a>
             </div>
         </#if>
