@@ -44,8 +44,7 @@
     <#if settings.github??>
       <!-- Github -->
       <li class="navigation__item">
-        <a href="https://github.com/${settings.github}" title="@${settings.github} 的 Github"
-           target="_blank">
+        <a href="https://github.com/${settings.github}" title="@${settings.github} 的 Github" target="_blank">
           <i class='social fa fa-github'></i>
           <span class="label">Github</span>
         </a>

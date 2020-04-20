@@ -5,13 +5,13 @@
   <ol class="post-list">
     <#list posts.content as post>
       <li>
-        <h2 class="post-list__post-title post-title">
+        <h3 class="post-list__post-title post-title">
           <a href="${context!}archives/${post.slug!}" title="访问 ${post.title!}">${post.title!}</a>
-        </h2>
+        </h3>
         <p class="excerpt">${post.summary!}&hellip;</p>
         <div class="post-list__meta">
           <time datetime="${post.createTime}" class="post-list__meta--date date">
-            ${post.createTime?string("yyyy-MM-dd")}
+            ${post.createTime?string("yyyy-MM-dd HH:mm")}
           </time>
           <span class="post-list__meta--tags tags">
               <#if post.tags?? && post.tags?size gt 0>
@@ -21,7 +21,7 @@
                 </#list>
               </#if>
           </span>
-          <a class="btn-border-small" href="${context!}archives/${post.slug!}">继续阅读</a>
+          <a class="btn-border-small" href="${context!}archives/${post.slug}">继续阅读</a>
         </div>
         <hr class="post-list__divider" />
       </li>

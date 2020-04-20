@@ -5,7 +5,7 @@
     <header class="post-header">
       <div class="post-meta">
         <time datetime="${post.createTime}" itemprop="datePublished" class="post-meta__date date">
-          ${post.createTime?string("yyyy-MM-dd")}
+          ${post.createTime?string("yyyy-MM-dd HH:mm")}
         </time>
         <span class="post-meta__tags tags">
           <#if tags?? && tags?size gt 0>

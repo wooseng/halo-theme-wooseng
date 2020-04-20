@@ -7,7 +7,9 @@
           <h2 class="post-list__post-title post-title"><a href="${context!}archives/${post.slug}" title="访问 ${post.title}">${post.title}</a></h2>
           <p class="excerpt">${post.summary}...</p>
           <div class="post-list__meta">
-            <time datetime="${post.createTime}" class="post-list__meta--date date">${post.createTime?string("yyyy-MM-dd")}</time>
+            <time datetime="${post.createTime}" class="post-list__meta--date date">
+              ${post.createTime?string("yyyy-MM-dd HH:mm")}
+            </time>
             <span class="post-list__meta--tags tags">
               <#if post.tags?? && post.tags?size gt 0>
                 <#list post.tags as tag>

@@ -5,7 +5,7 @@
     <header class="post-header">
       <div class="post-meta">
         <time datetime="${sheet.createTime}" itemprop="datePublished" class="post-meta__date date">
-          ${sheet.createTime?string("yyyy-MM-dd")}
+          ${sheet.createTime?string("yyyy-MM-dd HH:mm")}
         </time>
       </div>
       <h1 class="post-title">${sheet.title!}</h1>
