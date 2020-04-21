@@ -1,6 +1,6 @@
 <#include "_layouts/default.ftl">
 <#include "_includes/comments.ftl">
-<@default title="${post.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${post.summary!}" canonical="${context!}archives/${post.slug}">
+<@default title="${post.title!} - ${options.blog_title!}" keywords="${options.seo_keywords!},${meta_keywords!}" description="${post.summary!}" canonical="${context!}archives/${post.slug}">
   <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
       <div class="post-meta">

@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="${description!}" />
-    <meta name="author" content="Wei Wang" />
+    <meta name="author" content="残无殇" />
+    <meta name="keywords" content="${keywords!}" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="${title!}" />
     <meta name="twitter:description" content="${description!}" />
