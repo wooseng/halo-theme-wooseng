@@ -17,6 +17,7 @@
     <meta property="og:description" content="${description!}" />
     <@global.head />
     <link rel="stylesheet" href="${static!}/css/main.css" />
+    <link rel="stylesheet" href="${static!}/css/footer__copyright.css" />
     <link href="//cdn.jsdelivr.net/npm/font-awesome@4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="canonical" href="${canonical!}" />
     <link rel="alternate" type="application/rss+xml" title="${options.blog_title!}" href="${context!}feed.xml" />

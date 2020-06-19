@@ -280,15 +280,6 @@ td:last-child {
   font-size: .7em;
   color: #b3b3b3; }
 
-.footer__copyright {
-  display: block;
-  margin-bottom: .7em; }
-.footer__copyright a {
-  color: #a6a6a6;
-  text-decoration: none; }
-.footer__copyright a:hover {
-  color: #84252b; }
-
 .avatar,
 .logo {
   border-radius: 50%;
